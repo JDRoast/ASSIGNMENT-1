@@ -40,12 +40,6 @@ body{
     padding: 1rem 1rem;
 }
 
-
-.nav-logo {
-    width: auto;
-    height: 1rem;
-}
-
 .navbar a:hover {
     font-weight: bolder;
     color: rgb(255,255,255);
@@ -201,7 +195,7 @@ body{
     height: auto;
     max-width: 400px;
     max-height: 15rem;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.412);
 }
