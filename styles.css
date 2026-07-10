@@ -1,10 +1,10 @@
 html {
     scroll-behavior: smooth;
-   }
+}
 
-body{
+body {
     font-family: sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     color: black;
     margin: 0;
     padding: 0;
@@ -42,7 +42,7 @@ body{
 
 .navbar a:hover {
     font-weight: bolder;
-    color: rgb(255,255,255);
+    color: white;
     background-color: #1e77dd;
     border-radius: 1rem;
     padding: 1rem 1rem;
@@ -62,12 +62,14 @@ body{
 .top-image img {
     width: 80%;
     height: auto;
-    max-width: 400px;
+    max-width: 25rem;
     object-fit: cover;
+    margin-right: auto;
     border-radius: 50%;
-    padding : 4rem;
-    display:flex;
+    padding: 4rem;
+    display: flex;
 }
+
 
 .about-section {
     background-image: url("background_about.jpg");
@@ -78,7 +80,7 @@ body{
 }
 
 .about-box {
-    max-width: 1000px;
+    max-width: 62.5rem;
     margin: auto;
     background-color: rgba(255,255,255,0.70);
     padding: 3rem;
@@ -86,51 +88,52 @@ body{
     display: flex;
     align-items: center;
     gap: 3rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.412);
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.412);
 }
 
 .about-image img {
-    width: 250px;
-    height: 400px;
+    width: 15.625rem;
+    height: 25rem;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .about-text h1 {
-    font-size: 2rem;
+    font-size: 32px;
     margin-bottom: 1rem;
 }
 
 .about-text p {
-    font-size: 1.2rem;
+    font-size: 19px;
     line-height: 1.5;
 }
 
+
 .skillsAndAchievements-section {
     background-color: #3656b7;
-    background-image:linear-gradient(315deg, #3656b7 0%, #1c355d 60%);
+    background-image: linear-gradient(315deg,#3656b7 0%,#1c355d 60%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 2rem 2rem;
+    padding: 2rem;
     color: white;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 15px; 
-    padding: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 0.625rem;
 }
 
 .grid-item {
     background-color: #60a0e5de;
     color: white;
-    padding: 30px;
+    padding: 1.875rem;
     font-size: 20px;
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.412);
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.412);
 }
 
 .grid-item-img {
@@ -138,90 +141,57 @@ body{
     margin: 0 auto;
     width: auto;
     height: 3rem;
-    object-fit: cover; 
+    object-fit: cover;
     margin-top: 0.5rem;
 }
+
 
 .achievements-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 2rem;
-    justify-content: center;
 }
 
 .achievements-table th,
 .achievements-table td {
-    border: 3px solid #ffffff;
+    border: 0.1875rem solid white;
     padding: 0.5rem;
     text-align: left;
 }
+
 
 .projects-section {
     background-image: url("background_projects.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 2rem 2rem;
-    color:white;
+    padding: 2rem;
+    color: white;
 }
 
 .projects-img img {
-    color: rgb(0, 0, 0);
+    color: black;
     border-radius: 2rem;
-    justify-content: left;
     position: relative;
     z-index: 1;
     top: 2rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.612);
-}
-
-.projects-description {
-    color:black;
-    max-width:100%;
-    background-color: rgb(222, 224, 255);
-    padding: 3rem;
-    border-radius: 2rem;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    left: 2rem;
-    position: relative;
-    margin-right: 2rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.612);
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.612);
 }
 
 .projects-img img {
     width: auto;
     height: auto;
-    max-width: 400px;
+    max-width: 25rem;
     max-height: 15rem;
     object-fit: contain;
     border-radius: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.412);
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.412);
 }
 
-.contact-section {
-    background-color: #3656b7;
-    padding: 2rem 2rem;
-}
-
-.contact-text-box {
-    color: rgb(0, 0, 0);
-    max-width: 150px;
-    background-color: rgb(255, 255, 255);
-    padding: 2rem;
-    border-radius: 2rem;
-    justify-content: left;
-    position: relative;
-    z-index: 1;
-    top: 2rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.612);
-}
-
-.contact-links-box {
-    color:black;
-    max-width:100%;
-    background-color: rgb(222, 224, 255);
+.projects-description {
+    color: black;
+    max-width: 100%;
+    background-color: rgb(222,224,255);
     padding: 3rem;
     border-radius: 2rem;
     display: flex;
@@ -230,75 +200,53 @@ body{
     left: 2rem;
     position: relative;
     margin-right: 2rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.612);
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.612);
+}
+
+
+.contact-section {
+    background-color: #3656b7;
+    padding: 2rem;
+}
+
+.contact-text-box {
+    color: black;
+    max-width: 9.375rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    position: relative;
+    z-index: 1;
+    top: 2rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.612);
+}
+
+.contact-links-box {
+    color:black;
+    max-width:100%;
+    background-color:rgb(222,224,255);
+    padding:3rem;
+    border-radius:2rem;
+    display:flex;
+    justify-content:center;
+    gap:2rem;
+    left:2rem;
+    position:relative;
+    margin-right:2rem;
+    box-shadow:0 0.25rem 0.5rem rgba(0,0,0,0.612);
 }
 
 .contact-links-box a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    padding: 1rem 1rem;
-    border-radius: 1rem;
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:19px;
+    padding:1rem;
+    border-radius:1rem;
 }
 
 .contact-links-box a:hover {
-    background-color: #1e77dd;
-    color: white;
-    padding : 1rem 1rem;
-}
-
-@media(max-width:768px){
-.navbar ul {
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    }
-
-.navbar li:first-child {
-    margin-right: 0;
-    }
-
-.navbar li a {
-    padding: 1rem 1rem;
-    }
-
-.top-section{
-    flex-direction:column;
-    text-align:center;
-    }
-
-.about-box {
-    flex-direction: column;
-    text-align: center;
-    }
-
-.about-image img {
-    width: auto;
-    height: 180px;
-    }
-
-.grid-container{
-    grid-template-columns:repeat(2, 1fr);
-    }
-
-.projects-card{
-    flex-direction:column;
-    align-items:center;
-    }
-
-.projects-img{
-    margin-right:0;
-    margin-left:0;
-    }
-
-.projects-description{
-    margin-left:0;
-    margin-top:-1rem;
-    }
-
-.contact-links-box{
-    flex-direction:column;
-    align-items:center;
-}
+    background-color:#1e77dd;
+    color:white;
+    padding:1rem;
 }
