@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: black;
     margin: 0;
@@ -48,6 +48,17 @@ body {
     padding: 1rem 1rem;
 }
 
+.skills-text h1,
+.achievements-text h1,
+.projects-text h1{
+    text-align:center;
+    color:white;
+}
+
+.top-text h1 {
+    font-size: 60px;
+    font-weight: bold"
+}
 
 .top-section {
     background-image: url("background_top.png");
@@ -146,7 +157,7 @@ body {
 }
 
 
-.achievements-table {
+.achievements-table table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 2rem;
@@ -189,9 +200,9 @@ body {
 }
 
 .projects-description {
-    color: black;
+    color: white;
     max-width: 100%;
-    background-color: rgb(222,224,255);
+    background-color:#60a0e5de;
     padding: 3rem;
     border-radius: 2rem;
     display: flex;
@@ -283,11 +294,6 @@ body {
 
 .grid-container{
     grid-template-columns:repeat(2, 1fr);
-    }
-
-.projects-card{
-    flex-direction:column;
-    align-items:center;
     }
 
 .projects-img{
