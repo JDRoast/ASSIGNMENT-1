@@ -45,7 +45,6 @@ body {
     color: white;
     background-color: #1e77dd;
     border-radius: 1rem;
-    padding: 1rem 1rem;
 }
 
 .skills-text h1,
@@ -57,7 +56,7 @@ body {
 
 .top-text h1 {
     font-size: 60px;
-    font-weight: bold"
+    font-weight: bold;
 }
 
 .top-section {
@@ -123,7 +122,6 @@ body {
 .skillsAndAchievements-section {
     background-color: #3656b7;
     background-image: linear-gradient(315deg,#3656b7 0%,#1c355d 60%);
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 2rem;
@@ -181,15 +179,10 @@ body {
 }
 
 .projects-img img {
-    color: black;
-    border-radius: 2rem;
     position: relative;
     z-index: 1;
     top: 2rem;
     box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.612);
-}
-
-.projects-img img {
     width: auto;
     height: auto;
     max-width: 25rem;
